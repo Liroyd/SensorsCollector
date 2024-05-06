@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensors Collector</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="sensor_one">Sensor 1</string>
+    <string name="sensor_two">Sensor 2</string>
+    <string name="sensor_three">Sensor 3</string>
+    <string name="zero_value">NaN</string>
+    <string name="address_input_hint">Input IP Address</string>
+</resources>
