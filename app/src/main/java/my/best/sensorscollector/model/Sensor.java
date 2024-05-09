@@ -3,11 +3,11 @@ package my.best.sensorscollector.model;
 public class Sensor {
 
     private String id;
-    private Float temperature;
+    private Float value;
 
     public Sensor(String id, Float temperature) {
         this.id = id;
-        this.temperature = temperature;
+        this.value = temperature;
     }
 
     public String getId() {
@@ -18,11 +18,11 @@ public class Sensor {
         this.id = id;
     }
 
-    public Float getTemperature() {
-        return temperature;
+    public Float getValue() {
+        return value;
     }
 
-    public void setTemperature(Float temperature) {
-        this.temperature = temperature;
+    public void setValue(Float value) {
+        this.value = value;
     }
 }
